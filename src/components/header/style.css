@@ -1,0 +1,113 @@
+/* header ul {
+  display: inline;
+} */
+
+
+/* --------------------- => Header --------------------------- */
+
+header {
+  font-size: 14px;
+}
+
+.nomeHeader {
+  padding: 300px;
+  background-color: #ff8a9d;
+  width: 100px;
+  border: 2px solid #ff8a9d;
+  border-radius: 35px;
+  transform: rotate(-25deg);
+  position: relative;
+  top: -470px;
+  right: 300px;
+}
+
+.nomeHeader p {
+  position: relative;
+  top: 250px;
+  color: white;
+  width: 200px;
+  transform: rotate(25deg);
+}
+
+.listaNav{
+  justify-content: center;
+  text-align: right;
+  position: relative;
+  top: -630px;
+  right: 100px;
+}
+
+.listaNav li button {
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid #ff8a9d;
+  border-radius: 35px;
+  background: #ff8a9d;
+  padding: 8px;
+  color: #fff;
+
+}
+
+.listaNav li button:hover{
+  color: #ff8a9d;
+  background: #fff;;
+}
+
+.nada {
+  padding: 300px;
+  background-color: #1c5075;
+  position: relative;
+  top: -850px;
+  right: -600px;
+  border: 2px solid #1c5075;
+  border-radius: 35px;
+  transform: rotate(-35deg);
+}
+
+.escritos {
+  position: relative;
+  top: -500px;
+  left: 150px;
+
+}
+
+.escritos h1 {
+  font: 32px 'Courier New', Courier, monospace;
+  max-width: 400px;
+  
+
+}
+
+.escritos p {
+  font: 18px Georgia, 'Times New Roman', Times, serif;
+  max-width: 350px;
+  
+
+}
+
+.escritos button {
+  text-decoration: none;
+  border: 2px solid #ff8a9d;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+  top: 25px;
+  color: #fff;
+  background-color: #ff8a9d;
+  
+}
+
+.escritos button:hover {
+  color: #FF6699;
+  background-color: #fff;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+header ul li:nth-child(4) {
+  margin-right: 20px;
+}

@@ -1,10 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { useLocation } from 'react-router';
 
-function App() {
+import Routes from './Routes';
+
+const App = () => {
+
+  const location = useLocation()
+
+  console.log(location.pathname);
+
   return (
-    <div className="App">
-      App React
+    <div>
+       <Routes />
     </div>
   );
 }
