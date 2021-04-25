@@ -1,18 +1,13 @@
 import React from 'react';
-import { useLocation } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 
-import Routes from './Routes';
+import Routes from './routes/index.js';
 
 const App = () => {
-
-  const location = useLocation()
-
-  console.log(location.pathname);
-
   return (
-    <div>
-       <Routes />
-    </div>
+    <BrowserRouter>
+        <Routes />
+    </BrowserRouter>
   );
 }
 
