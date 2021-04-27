@@ -1,12 +1,5 @@
-import React from 'react';
-import {
-        IoIosArrowRoundForward,
-        IoIosBook,
-        IoIosCall,
-        IoIosEasel,
-        }
-        from 'react-icons/io';
-import { FiMessageCircle } from 'react-icons/fi'
+import React, { Component } from 'react';
+import {IoIosArrowRoundForward} from 'react-icons/io';
 import {useHistory} from 'react-router-dom';
 
 
@@ -16,19 +9,19 @@ const Header = () => {
   const history = useHistory();
 
 return (
-    <header>
+    <header className="tudo">
       <div className="nomeHeader">
-        <p>Profa. Dra. Patrícia Prudêncio</p>
+        <button onClick={(() => history.push({pathname: '/'}))} key={Component}>Profª Dra Patrícia Prudêncio</button>
         </div>
       <nav>
       <ul className="listaNav">
         <li><button onClick={(()=>history.push({pathname: '/portfolio'}))}>
-          Quem sou eu  <FiMessageCircle size={14}/>
+          Quem sou eu
           </button></li>
-        <li><button>Cursos  <IoIosEasel size={14}/></button></li>
-        <li><button>E-books  <IoIosBook size={14} /></button></li>
+        <li><button>Cursos</button></li>
+        <li><button>E-books</button></li>
         <li><button onClick={(()=>history.push({pathname: '/contato'}))}>
-          Contato  <IoIosCall size={14}/>
+          Contato
           </button></li>
       </ul>
       </nav>

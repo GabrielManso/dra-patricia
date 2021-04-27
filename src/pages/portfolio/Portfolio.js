@@ -6,6 +6,12 @@ const Portfolio = () => {
   return (
     <div>
       <Header />
+      Portfolio
+      Portfolio
+      Portfolio
+      Portfolio
+      Portfolio
+      Portfolio
     </div>
   )
 }

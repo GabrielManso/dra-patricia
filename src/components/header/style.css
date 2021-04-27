@@ -1,113 +1,126 @@
-/* header ul {
-  display: inline;
-} */
-
-
-/* --------------------- => Header --------------------------- */
-
-header {
-  font-size: 14px;
+.tudo {
+  max-width: 998px;
 }
 
 .nomeHeader {
-  padding: 300px;
+  height: 400px;
+  width: 500px;
   background-color: #ff8a9d;
-  width: 100px;
-  border: 2px solid #ff8a9d;
+  border: #ff8a9d solid 2px;
   border-radius: 35px;
-  transform: rotate(-25deg);
+  transform: rotate(-35deg);
   position: relative;
-  top: -470px;
-  right: 300px;
+  right: 200px;
+  top: -220px;
 }
 
-.nomeHeader p {
+.nomeHeader button {
+  transform: rotate(35deg);
   position: relative;
-  top: 250px;
+  top: 75%;
+  left: 45%;
+  text-decoration: none;
   color: white;
-  width: 200px;
-  transform: rotate(25deg);
+  background-color: #ff8a9d;
+  border: #ff8a9d solid 2px;
+  border-radius: 35px;
+  padding: 8px;
 }
 
-.listaNav{
-  justify-content: center;
-  text-align: right;
+.listaNav {
+  list-style: none;
+  display: flex;
+  float: right;
   position: relative;
-  top: -630px;
-  right: 100px;
+  top: -400px;
+  right: 10%;
 }
 
 .listaNav li button {
   justify-content: center;
+  margin-right: 15px;
   text-decoration: none;
   border: 2px solid #ff8a9d;
   border-radius: 35px;
   background: #ff8a9d;
   padding: 8px;
   color: #fff;
-
 }
 
 .listaNav li button:hover{
   color: #ff8a9d;
-  background: #fff;;
-}
-
-.nada {
-  padding: 300px;
-  background-color: #1c5075;
-  position: relative;
-  top: -850px;
-  right: -600px;
-  border: 2px solid #1c5075;
-  border-radius: 35px;
-  transform: rotate(-35deg);
+  background: #fff;
+  justify-content: center;
 }
 
 .escritos {
   position: relative;
-  top: -500px;
-  left: 150px;
-
+  top: -230px;
+  left: 15%;
 }
 
 .escritos h1 {
-  font: 32px 'Courier New', Courier, monospace;
+  font: 40px 'Courier New', Courier, monospace;
   max-width: 400px;
-  
-
+  text-align: left;
 }
 
 .escritos p {
-  font: 18px Georgia, 'Times New Roman', Times, serif;
-  max-width: 350px;
-  
-
+  font: 20px bold Helvetica, Arial, sans-serif;
+  max-width: 400px;
+  margin-bottom: 40px;
+  color: #969693;
 }
 
 .escritos button {
+  margin-right: 15px;
   text-decoration: none;
   border: 2px solid #ff8a9d;
-  border-radius: 25px;
-  padding: 10px;
-  position: relative;
-  top: 25px;
+  border-radius: 35px;
+  background: #ff8a9d;
+  padding: 8px;
   color: #fff;
-  background-color: #ff8a9d;
-  
 }
 
 .escritos button:hover {
-  color: #FF6699;
-  background-color: #fff;
+  color: #ff8a9d;
+  background: #fff;
 }
 
-header ul li {
-  display: inline-block;
-  margin-left: 25px;
-  margin-top: 20px;
+.nada {
+  height: 900px;
+  width: 1000px;
+  background: #1c5075;
+  border: 2px solid #1c5075;
+  border-radius: 25px;
+  transform: rotate(-40deg);
+  position: relative;
+  top: -600px;
+  left: 70%;
+}
+/* 
+@media only screen and (min-width:788px) and (max-width:979px){
+  .nomeHeader {
+     background-color: #fff;
+     color: #fff;
+     border: #fff;
+  }
+
+  .nada {
+    background-color: #fff;
+    border: #fff;
+  }
 }
 
-header ul li:nth-child(4) {
-  margin-right: 20px;
-}
+@media only screen and (max-width: 788px) {
+  .nomeHeader {
+    background-color: g#fff;
+    color: #fff;
+    border: #fff;
+ }
+
+ .nada {
+   background-color: #fff;
+   border: #fff;
+ }
+} */

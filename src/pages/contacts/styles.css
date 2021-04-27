@@ -1,0 +1,11 @@
+.geral {
+  height: 500px;
+  width: 100%;
+  background-color: #f9f9eb;
+  position: relative;
+  top: -822px;
+}
+
+.geral h1 {
+  text-align: center;
+}
