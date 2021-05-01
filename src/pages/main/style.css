@@ -1,24 +1,27 @@
-.quadradoBranco {
-  width: 100%;
-  height: 80px;
-  background-color: #fff;
-  position: relative;
-  top: -800px;
+body{
+font-family: 'Poppins', sans-serif;
 }
 
-.sobre  {
-  width: 100%;
-  height: 500px;
-  background-color: #f9f9eb;
+.infos {
   position: relative;
-  top: -800px;
+  top: -1150px;
+  height: 1200px;
+}
+.sobre  {
+  width: 1160px;
+  height: 560px;
+  background-color: #faf9f7;
+  position: relative;
+  right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-bottom: 60px;
 }
 
-.foto {
-  background: url('../../img/Patricia_prudencio_logo-02.png');
+.sobre img {
+  height: 500px;
+  align-items: center;
 }
 
 .frases {
@@ -27,7 +30,7 @@
 
 .frases h1 {
   text-align: left;
-  font: 32px 'Times New Roman', Times, serif;
+  font: 32px 'Poppins', sans-serif;
 
 }
 
@@ -37,6 +40,7 @@
 }
 
 .frases button {
+  font-family: 'Poppins', sans-serif;
   margin-right: 15px;
   text-decoration: none;
   border: 2px solid #ff8a9d;
@@ -52,22 +56,267 @@
 }
 
 .frases .btn-contato {
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   border: 2px solid #dcdcdc;
   border-radius: 35px;
-  background: #f9f9eb;
+  background: #f0f0f1;
   padding: 8px;
   color: #000;
 }
 
 .frases .btn-contato:hover {
-  color: #fff;
-  background: #000;
+  color: #000;
+  background: #fff;
   border: #000;
 }
 
 .espec {
+  width: 1160px;
+  height: 160px;
+  position: relative;
+  right: 10px;
+  background-color: #dcdcdc;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+}
+
+.videos p, .cursos p, .especializacoes p, .Carreira p  {
+  font: 32px 'Poppins', sans-serif;
+}
+
+.videos article, .cursos article, .especializacoes article, .Carreira article  {
+  color: #c0c0c0;
+}
+
+.dif{
+  background-color: #fff;
+  position: relative;
+  right: 10px;
+  padding: 50px;
+  height: 1000px;
+}
+
+.dif h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.dif h2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin-bottom: 40px;
+  color: #c0c0c0;
+}
+
+.dif .diful {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px;
+  box-shadow: 5px 6px 15px #efefef;	
+  padding-left: 0px;
+} 
+
+.par .parul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  padding-left: 150px;
+} 
+
+.dif ul .listDif {
+  height: 150px;
+  border: 1px solid #f0f0f1;
   list-style: none;
+  box-shadow: 0 0 1em #fff;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.dif ul li h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dif ul li p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin-bottom: 40px;
+  color: #c0c0c0;
+}
+
+.dif ul li button {
+  padding: 5px;
+  background-color: #1c5075;
+  border: 2px solid #1c5075;
+  border-radius: 35px;
+  color: #fff;
+  align-items: center; 
+  position: relative;
+  top: -25px;
+}
+
+.dif ul li button:hover {
+  color: #1c5075;
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+.dif ul li:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.dif ul li:nth-child(3) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dif ul .parceiros {
+  list-style: none;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.dif .par {
+  margin: 100px auto;
+}
+
+.ebooks{
+  background: url('../../img/Retângulo-1.png') no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  top: -680px;
+  left: -10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+
+.ebooks h1 {
+  font-size:  50px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 0px;
+  padding-top: 10px;
+}
+
+.ebooks form {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ebooks .inputEmail input{
+  width: 800px;
+  height: 65px;
+  border: 2px solid #ff8a9d;
+  border-radius: 35px;
+  margin: 0 20px;
+  padding: 0px;
+  font-size: 22px;
+}
+
+.ebooks .inputEmail input::-webkit-input-placeholder{
+  font-size: 22px;
+}
+
+.ebooks .inputEmail button {
+  width: 200px;
+  height: 65px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  background-color: #1c5075;
+  border: #1c5075 4px solid;
+  border-radius: 25px;
+  color: #fff;
+}
+
+/* .ebooks .inputEmail button:hover {
+  background: #fff;
+  color: #1c5075;
+} */
+
+.curso {
+  position: relative;
+  top: -680px;
+  right: 10px;
+  background: #faf9f6;
+  padding-top: 5px;
+  padding-bottom: 60px;
+}
+
+.curso h1 {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.curso .cinza {
+  height: 150px;
+  width: 342px;
+  background: #ebebeb;
+  border: #ebebeb 2px solid; 
+  position: relative;
+  right: 22px;
+  top: -22px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.curso ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+.curso ul li {
+  width: 300px;
+  list-style: none;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.curso .data {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: #ebebeb;
+}
+
+.curso .parag {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #ebebeb;
+}
+
+.curso button {
+  padding: 5px;
+  background-color: #1c5075;
+  border: 3px solid #1c5075;
+  border-radius: 35px;
+  color: #fff;
+  width: 150px;
+}
+
+.curso button:hover {
+  background: #fff;
+  color: #1c5075;
 }

@@ -1,30 +1,23 @@
 .tudo {
   max-width: 998px;
+  
 }
 
 .nomeHeader {
-  height: 400px;
-  width: 500px;
-  background-color: #ff8a9d;
-  border: #ff8a9d solid 2px;
-  border-radius: 35px;
-  transform: rotate(-35deg);
+  background: url('../../../src/img/Layer-263.png') no-repeat;
+  height: 300px;
   position: relative;
-  right: 200px;
-  top: -220px;
+  top: -10px;
+  right: 40%;
 }
 
-.nomeHeader button {
-  transform: rotate(35deg);
+.nomeHeader button{
   position: relative;
-  top: 75%;
-  left: 45%;
-  text-decoration: none;
-  color: white;
-  background-color: #ff8a9d;
-  border: #ff8a9d solid 2px;
-  border-radius: 35px;
-  padding: 8px;
+  left: 40%;
+  background: #ff8a9d;
+  border: #ff8a9d;
+  width: 30px;
+  height: 30px;
 }
 
 .listaNav {
@@ -32,42 +25,36 @@
   display: flex;
   float: right;
   position: relative;
-  top: -400px;
-  right: 10%;
+  top: -280px;
+  z-index: 10;
 }
 
 .listaNav li button {
   justify-content: center;
   margin-right: 15px;
   text-decoration: none;
-  border: 2px solid #ff8a9d;
-  border-radius: 35px;
-  background: #ff8a9d;
-  padding: 8px;
-  color: #fff;
-}
-
-.listaNav li button:hover{
-  color: #ff8a9d;
-  background: #fff;
-  justify-content: center;
+  padding: 10px;
+  color: #000;
+  background-color: #fff;
+  border: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 .escritos {
   position: relative;
-  top: -230px;
+  top: -120px;
   left: 15%;
 }
 
 .escritos h1 {
-  font: 40px 'Courier New', Courier, monospace;
-  max-width: 400px;
+  font: 32px 'Courier New', Courier, monospace;
+  max-width: 300px;
   text-align: left;
 }
 
 .escritos p {
-  font: 20px bold Helvetica, Arial, sans-serif;
-  max-width: 400px;
+  font: 14px bold 'Poppins', sans-serif;
+  max-width: 285px;
   margin-bottom: 40px;
   color: #969693;
 }
@@ -80,6 +67,7 @@
   background: #ff8a9d;
   padding: 8px;
   color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 .escritos button:hover {
@@ -87,40 +75,20 @@
   background: #fff;
 }
 
+
 .nada {
-  height: 900px;
-  width: 1000px;
-  background: #1c5075;
-  border: 2px solid #1c5075;
-  border-radius: 25px;
-  transform: rotate(-40deg);
+  background: url('../../img/Layer-1.png') no-repeat;
+  height: 1500px;
+  left: 50%;
   position: relative;
-  top: -600px;
-  left: 70%;
-}
-/* 
-@media only screen and (min-width:788px) and (max-width:979px){
-  .nomeHeader {
-     background-color: #fff;
-     color: #fff;
-     border: #fff;
-  }
-
-  .nada {
-    background-color: #fff;
-    border: #fff;
-  }
+  top: -700px;
+  max-width: 640px;
 }
 
-@media only screen and (max-width: 788px) {
-  .nomeHeader {
-    background-color: g#fff;
-    color: #fff;
-    border: #fff;
- }
-
- .nada {
-   background-color: #fff;
-   border: #fff;
- }
-} */
+.nada img {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 250px;
+  left: 10%;
+}
