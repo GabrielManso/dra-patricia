@@ -1,94 +1,29 @@
-.tudo {
-  max-width: 998px;
-  
-}
-
-.nomeHeader {
-  background: url('../../../src/img/Layer-263.png') no-repeat;
-  height: 300px;
-  position: relative;
-  top: -10px;
-  right: 40%;
-}
-
-.nomeHeader button{
-  position: relative;
-  left: 40%;
-  background: #ff8a9d;
-  border: #ff8a9d;
-  width: 30px;
-  height: 30px;
-}
-
-.listaNav {
-  list-style: none;
+header{
+  width: 100%;
   display: flex;
-  float: right;
-  position: relative;
-  top: -280px;
+  flex-direction: row;
+  background-color: #fff;
+  position: absolute;
   z-index: 10;
 }
 
-.listaNav li button {
-  justify-content: center;
-  margin-right: 15px;
-  text-decoration: none;
-  padding: 10px;
-  color: #000;
-  background-color: #fff;
-  border: #fff;
-  font-family: 'Poppins', sans-serif;
+.logo {
+  margin-left: 100px;
+  margin-right: 300px;
 }
 
-.escritos {
-  position: relative;
-  top: -120px;
-  left: 15%;
+.ListaNav {
+  display: flex;
+  list-style: none;
+  margin-top: 45px;
 }
 
-.escritos h1 {
-  font: 32px 'Courier New', Courier, monospace;
-  max-width: 300px;
-  text-align: left;
-}
-
-.escritos p {
-  font: 14px bold 'Poppins', sans-serif;
-  max-width: 285px;
-  margin-bottom: 40px;
-  color: #969693;
-}
-
-.escritos button {
-  margin-right: 15px;
-  text-decoration: none;
-  border: 2px solid #ff8a9d;
-  border-radius: 35px;
-  background: #ff8a9d;
-  padding: 8px;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-}
-
-.escritos button:hover {
-  color: #ff8a9d;
-  background: #fff;
-}
-
-
-.nada {
-  background: url('../../img/Layer-1.png') no-repeat;
-  height: 1500px;
-  left: 50%;
-  position: relative;
-  top: -700px;
-  max-width: 640px;
-}
-
-.nada img {
-  height: 400px;
-  width: 400px;
-  position: relative;
-  top: 250px;
-  left: 10%;
+.btn-header {
+  color: #1c5075;
+  background: none;
+  border: none;
+  margin-right: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
 }

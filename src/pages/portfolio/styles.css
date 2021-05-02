@@ -1,0 +1,96 @@
+.Nome {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color: #1c5075;
+}
+
+.geral {
+  margin: 80px auto;
+  text-align: center;
+  margin-left: 10px;
+  background-color: #ebebeb;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+}
+.escritos {
+  font-size: 14px;
+  color: #c0c0c0;
+  max-width: 550px;
+  padding: 50px;
+  text-align: left;
+}
+
+.geral .foto-port {
+  height: 300px;
+  position: relative;
+  top: -5%;
+}
+
+.geral .logo-port {
+  margin-top: 225px;
+}
+
+.lista-valores ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.lista-valores ul li {
+  color: #1c5075;
+  text-align: center;
+  max-width: 350px;
+}
+
+.lista-valores ul li img {
+  height: 100px;
+}
+
+.lista-valores::after {
+  content: "";
+  display: block;
+  background-color: #ebebeb;
+  height: 4px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.diferenciais {
+  padding-left: 80px;
+}
+
+.diferenciais h1 {
+  font-size: 32px;
+  color: #1c5075;
+  text-align: center;
+}
+
+.diferenciais h2 {
+  color: #1c5075;
+}
+
+.diferenciais p {
+  margin-right: 40px;
+  color: #91aabc;
+}
+
+.diferenciais .comlogo {
+  display: flex;
+  flex-direction: row;
+}
+
+.diferenciais p, .diferenciais h2 {
+    max-width: 500px;
+}
+
+.diferenciais .comlogo img {
+  height: 150px;
+}
+
+.diferenciais .comlogo .teta {
+  margin-top: 150px;
+  height: 100px;
+}
