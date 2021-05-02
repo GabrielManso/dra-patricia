@@ -158,8 +158,8 @@ font-family: 'Poppins', sans-serif;
 .dif .diful {
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
   margin-bottom: 150px;
+  margin-left: 25px;
   box-shadow: 5px 6px 15px #efefef;	
   padding-left: 0px;
 } 
@@ -257,8 +257,8 @@ font-family: 'Poppins', sans-serif;
 
 .ebooks{
   align-items: center;
-  background: url('../../img/Retângulo-1.png') no-repeat;
-  background-size: cover;
+  background: url('../../img/Retângulo-1.png');
+  width: 100%;
   height: 300px;
   position: relative;
   top: -680px;

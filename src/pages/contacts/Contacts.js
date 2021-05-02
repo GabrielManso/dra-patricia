@@ -5,40 +5,33 @@ import Header from '../../components/header/Header';
 import './styles.css'
 
 const Contacts = () => {
-  const [name, setName] = React.useState([]);
-  const [email, setEmail] = React.useState([]);
-  const [message, setMessage] = React.useState('');
 
   return (
     <div>
       <Header />
-      <div className="quadradoBranco"></div>
-      <div className="geral">
-        <h1>Contatos</h1>
-        <form>
-
-          <label htmlFor="Nome">Nome</label>
-          <input 
-          type="text" 
-          id="Nome"
-          value ={name}
-          onChange={event => setName(event.target.value)}/>
-
-          <label htmlFor="email">E-mail</label>
-          <input 
-          type="e-mail" 
-          id="email"
-          value ={email}
-          onChange={event => setEmail(event.target.value)}/>
-
-          <label htmlFor="message">Mensagem</label>
-          <textarea id="message" 
-          valeu={message} onChange={(event => setMessage(event.target.value))}
-          rows="5"
-          cols="33"
-          />   
-          <button>Enviar</button>
-        </form>
+      <div className="contato-geral">
+        <h1>Contato</h1>
+        <div className="formas-contato">
+          <p>clique no botão abaixo e fale conosco</p>
+          <button className="whats">Whatsapp</button>
+          <p>clique no botão abaixo e nos envie um e-mail</p>
+          <button className="email">E-mail</button>
+          <div className="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <ul>
+              <li>
+              <button><img src="/Img/003-facebook.png" alt="Logo Facebook"/></button>      
+              </li>
+              <li>
+              <button><img src="/Img/001-youtube.png" alt="Logo Youtube"/></button>
+              </li><li>
+              <button><img src="/Img/002-instagram.png" alt="Logo Intgram"/></button>
+              </li><li>
+              <button><img src="/Img/004-linkedin.png" alt="Logo Linkedin"/></button>
+              </li>
+            </ul>
+        </div>
+        </div>
       </div>
     </div>
   )
