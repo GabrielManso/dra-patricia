@@ -29,7 +29,7 @@ const Main = () => {
         </GridItem> 
       <div className="infos">
       <div className="sobre">
-        <GridItem xs={12} md={6} xl={6}>
+        <GridItem xs={12} md={6} xl={12}>
           <div className="frases">
             <h1>Sobre mim</h1>
             <p>Meu nome é Patrícia S. Prudêncio, sou Enfermeira, Docente Universitária e Empresária. Minhas áreas de 
@@ -67,7 +67,6 @@ const Main = () => {
           <p>146</p>
           <article>Carreira</article>
         </div>
-        
       </div>
       <section className="dif">
         <h1>Diferenciais</h1>

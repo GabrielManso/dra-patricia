@@ -75,7 +75,7 @@ font-family: 'Poppins', sans-serif;
 
 .frases p {
   max-width: 400px;
-  color: #dcdcdc;
+  color: #696969;
 }
 
 .frases button {
@@ -97,7 +97,7 @@ font-family: 'Poppins', sans-serif;
 .frases .btn-contato {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
-  border: 2px solid #dcdcdc;
+  border: 2px solid #696969;
   border-radius: 35px;
   background: #f0f0f1;
   padding: 8px;
@@ -107,7 +107,7 @@ font-family: 'Poppins', sans-serif;
 .frases .btn-contato:hover {
   color: #000;
   background: #fff;
-  border: #000;
+  border: #696969;
 }
 
 .espec {
@@ -126,7 +126,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .videos article, .cursos article, .especializacoes article, .Carreira article  {
-  color: #c0c0c0;
+  color: #696969;
 }
 
 .dif{
@@ -214,7 +214,7 @@ font-family: 'Poppins', sans-serif;
   margin-top: 42px;
 }
 .dif ul li .btn-3{
-  margin-top: 41px;
+  margin-top: 25px;
 }
 .dif ul li .btn-4{
   margin-top: 61px;
