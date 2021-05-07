@@ -10,11 +10,11 @@ const Header = () => {
 
 return (
     <header>
-      <GridConteiner>
         <div className="logo">
           <img src="/Img/Logo-Patricia.png" alt="Logo Patricia"/>
         </div>
-        <GridItem xs={3} sm={6}md={6} >
+        <GridConteiner>
+        <GridItem>
           <nav>
             <ul className="ListaNav">
               <li><button className="btn-header" onClick={(() => history.push({pathname: './'}))}>Home</button></li>

@@ -2,6 +2,10 @@ body{
 font-family: 'Poppins', sans-serif;
 }
 
+.main {
+  height: 3250px;
+}
+
 .parteSuperior {
   background: url(../../img/Banner.png) no-repeat;
   background-size: cover;
@@ -108,7 +112,7 @@ font-family: 'Poppins', sans-serif;
 .frases .btn-contato:hover {
   color: #000;
   background: #fff;
-  border: #696969;
+  border-color: #696969;
 }
 
 .espec {
@@ -209,16 +213,20 @@ font-family: 'Poppins', sans-serif;
 }
 
 .dif ul li .btn-1{
-  margin-top: 62px;
+  margin-top: 50px;
+  justify-content: center;
 }
 .dif ul li .btn-2{
-  margin-top: 42px;
+  margin-top: 14px;
+  justify-content: center;
 }
 .dif ul li .btn-3{
-  margin-top: 25px;
+  margin-top: 13px;
+  justify-content: center;
 }
 .dif ul li .btn-4{
-  margin-top: 61px;
+  margin-top: 50px;
+  justify-content: center;
 }
 
 

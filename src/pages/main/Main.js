@@ -17,19 +17,17 @@ const Main = () => {
   }
 
   return (
-    <section>
+    <section className="main">
       <Header />
-      <GridConteiner>
-       <GridItem xs={12} xl={12}>
         <div className="parteSuperior">
           <h1>Saúde da mulher e Saúde da Criança</h1>
           <p>Morbi et nils a sapien acelierisque.Morbi et nils a sapien acelierisque.Morbi et nils a sapien acelierisque.</p>
           <button onClick={(() => history.push({pathname: './'}))}>Conheça nossos cursos</button>
         </div>
-        </GridItem> 
+    
       <div className="infos">
       <div className="sobre">
-        <GridItem xs={12} md={6} xl={12}>
+    
           <div className="frases">
             <h1>Sobre mim</h1>
             <p>Meu nome é Patrícia S. Prudêncio, sou Enfermeira, Docente Universitária e Empresária. Minhas áreas de 
@@ -43,7 +41,6 @@ const Main = () => {
               <button className="btn-contato" onClick={(() => history.push({pathname: '/contato'}))}>Contato</button>
             </div>
           </div>
-        </GridItem>
         <div className="foto">
           <img src="/Img/foto-2.png" alt="Foto 2 Patricia"/>
         </div>
@@ -127,7 +124,6 @@ const Main = () => {
           </form>
         </div>
       </div>
-        <GridItem xs={12} md={12} xl={12}>
           <section className="curso">
             <h1>Cursos</h1>
             <ul>
@@ -152,8 +148,7 @@ const Main = () => {
               </li>
             </ul>
           </section>
-        </GridItem>
-      </GridConteiner>
+        
     </section>
   ) 
 }
