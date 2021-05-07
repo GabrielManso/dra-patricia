@@ -12,8 +12,6 @@ return (
         <div className="logo">
           <img src="/Img/Logo-Patricia.png" alt="Logo Patricia"/>
         </div>
-        <GridConteiner>
-        <GridItem>
           <nav>
             <ul className="ListaNav">
               <li><button className="btn-header" onClick={(() => history.push({pathname: './'}))}>Home</button></li>
@@ -23,8 +21,6 @@ return (
               <li><button className="btn-header" onClick={(() => history.push({pathname: './contato'}))}>Contato</button></li>
             </ul>
           </nav>
-        </GridItem>
-      </GridConteiner>
     </header>
   )
 }
