@@ -19,7 +19,7 @@ const Main = () => {
       <Header />
         <div className="parteSuperior">
           <h1>Saúde da mulher e Saúde da Criança</h1>
-          <p>Ensino Enfermeiros a prestarem ciudados maternos infantis com excelência e segurança.</p>
+          <p>Ensino enfermeiros a prestarem cuidados maternos infantis com excelência e segurança.</p>
           <button onClick={(() => history.push({pathname: './'}))}>Conheça nossos cursos</button>
         </div>
     
