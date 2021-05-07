@@ -212,18 +212,21 @@ font-family: 'Poppins', sans-serif;
   background-color: #fff;
 }
 
-.diful .listDif:nth-child(1) p{
-  margin-bottom: 50%;
+.diful .listDif .btn-1{
+  position: relative;
+  top: 16%;
 }
-.diful .listDif:nth-child(2) p{
-  margin-bottom: 21%;
+.diful .listDif .btn-2{
+  position: relative;
+  top: 1%;
 }
-.diful .listDif:nth-child(3) p{
-  margin-bottom: 24%;
-
+.diful .listDif .btn-3{
+  position: relative;
+  top: 1%;
 }
-.diful .listDif:nth-child(4) p{
-  margin-bottom: 27%;
+.diful .listDif .btn-4{
+  position: relative;
+  top: 16%;
 }
 
 .dif ul li .btn-dif{
