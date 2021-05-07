@@ -26,10 +26,13 @@
   height: 300px;
   position: relative;
   top: -5%;
+  right: -30%;
 }
 
 .geral .logo-port {
-  margin-top: 225px;
+  position: relative;
+  top: 50%;
+  right: 20%;
 }
 
 .lista-valores ul {
