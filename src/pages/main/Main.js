@@ -72,7 +72,7 @@ const Main = () => {
             <p>Iniciativa da Universidade de São Paulo (USP) 
               criada para identificar empresas constituídas por alunos, ex-alunos e pesquisadores
             </p>
-            <button className="btn-1" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
+            <button className="btn-dif" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
           </li>
           <li className="listDif">
             <h3>
@@ -81,7 +81,7 @@ const Main = () => {
               de Enfermagem (Cofen) e do Centro 
               Colaborador da Organização Pan-Americana de Saúde e Organização Mundial da Saúde.
             </p>
-            <button className="btn-2" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
+            <button className="btn-dif" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
           </li>
           <li className="listDif">
             <h3>Membro do Sigma Teta
@@ -91,7 +91,7 @@ const Main = () => {
                 visibilidade e as redes de comunicação entre
                 profissionais.
             </p>
-            <button className="btn-3" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
+            <button className="btn-dif" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
           </li>
           <li className="listDif">
             <h3>Experiência Internacional
@@ -103,7 +103,7 @@ const Main = () => {
                 Neonatal (UTI), Ginecologia e Oncologia
                 Mamária.
             </p>
-            <button className="btn-4" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
+            <button className="btn-dif" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
           </li>
         </ul>
       </section>
