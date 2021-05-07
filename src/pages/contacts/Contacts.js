@@ -17,7 +17,6 @@ const Contacts = () => {
   return (
     <div>
       <Header />
-      <GridConteiner>
         <div className="contato-geral">
           <h1>Contato</h1>
           <div className="formas-contato">
@@ -42,7 +41,6 @@ const Contacts = () => {
           </div>
           </div>
         </div>
-      </GridConteiner>
     </div>
   )
 }
