@@ -1,8 +1,6 @@
 import React from 'react';
 
 import Header from '../../components/header/Header';
-import GridConteiner from '../../components/Grid/GridConteiner';
-import GridItem from '../../components/Grid/GridItem';
 
 import './style.css'
 import { useHistory } from 'react-router';

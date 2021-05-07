@@ -1,7 +1,6 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
-import GridItem from '../Grid/GridItem';
-import GridConteiner from '../Grid/GridConteiner';
+
 
 import './style.css';
 
