@@ -45,22 +45,22 @@ const Main = () => {
       </div>
       <div className="espec">
         <div className="videos">
-          <p>45</p>
-          <article>E-Books</article>
+          <p>3</p>
+          <article>E-Books escritos</article>
         </div>
         <div className="cursos">
-          <p>432</p>
-          <article>Cursos</article>
+          <p>5</p>
+          <article>Cursos gravados</article>
         </div>
        
         <div className="especializacoes">
-          <p>525</p>
+          <p>8</p>
           <article>Especializações</article>
         </div>
         
         <div className="Carreira">
-          <p>146</p>
-          <article>Carreira</article>
+          <p>23</p>
+          <article>Anos de Carreira</article>
         </div>
       </div>
       <section className="dif">
