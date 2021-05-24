@@ -13,6 +13,10 @@ const Contacts = () => {
     const whatsapp = () => window.location.href = "https://api.whatsapp.com/send?phone=5514982095130";
     const linkedin = () => window.location.href = "";
 
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
   return (
     <div>
       <Header />

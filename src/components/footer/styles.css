@@ -1,0 +1,13 @@
+.footer {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: #1c5075;
+  position: relative;
+  bottom: 700px;  
+  right: 10px;
+}
+
+.img-footer {
+  height: 120px;
+}

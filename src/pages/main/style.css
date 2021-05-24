@@ -2,8 +2,8 @@ body{
 font-family: 'Poppins', sans-serif;
 }
 
-.main {
-  height: 3250px;
+.main{
+  height: 3500px;
 }
 
 .parteSuperior {
@@ -241,21 +241,13 @@ font-family: 'Poppins', sans-serif;
   transform: scale(1.05);
 }
 
-.dif ul li:nth-child(1) {
+.dif ul .list-1 {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.dif ul li:nth-child(4) {
+.dif ul .list-4 {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-
-.dif ul .parceiros {
-  list-style: none;
-  max-width: 300px;
-  display: flex;
-  flex-direction: column;
-  margin-right: 100px;
 }
 
 .par .parul {
@@ -268,6 +260,8 @@ font-family: 'Poppins', sans-serif;
 .dif .par {
   margin: 100px auto;
 }
+
+
 
 .ebooks{
   align-items: center;
@@ -334,10 +328,12 @@ font-family: 'Poppins', sans-serif;
 .curso {
   position: relative;
   top: -680px;
+  bottom: 0px;
   right: 10px;
   background: #faf9f6;
   padding-top: 5px;
   padding-bottom: 60px;
+  width: 100%;
 }
 
 .curso h1 {
@@ -397,4 +393,53 @@ font-family: 'Poppins', sans-serif;
 .curso button:hover {
   background: #fff;
   color: #1c5075;
+}
+
+.podcast {
+  position: relative;
+  top: -680px;
+  bottom: 0px;
+  right: 10px;
+  background-color: #efefef;
+  padding: 10px;
+  width: 100%;
+}
+
+.podcast h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+.podcast .img-podcast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.podcast button {
+  background-color: none;
+  border: none;
+}
+
+.podcast p {
+  text-align: center;
+}
+
+.parceiros {
+  position: relative;
+  top: -706px;
+  bottom: 0px;
+  background-color: #faf9f7;
+}
+
+.parceiros  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.parceiros img {
+  height: 150px;
+
 }

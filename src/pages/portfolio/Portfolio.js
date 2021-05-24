@@ -5,6 +5,11 @@ import './styles.css';
 
 const Portfolio = () => {
 
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="portfolio">
       <Header/>

@@ -2,24 +2,33 @@ import React from 'react';
 
 import Header from '../../components/header/Header';
 
+
 import './style.css'
 import { useHistory } from 'react-router';
+import Footer from '../../components/footer/Footer';
 
 const Main = () => {
   const history = useHistory();
 
   const [email, setEmail] = React.useState('');
 
+  const curso1 = () => window.location.href = "https://hotm.art/tQOdpj"; 
+  const curso2 = () => window.location.href = "https://hotm.art/UZRGAg4A"; 
+
+
   function handleChange ({target}) {
     setEmail(target.value);
   }
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="main">
       <Header />
         <div className="parteSuperior">
           <h1>Saúde da mulher e Saúde da Criança</h1>
-          <p>Morbi et nils a sapien acelierisque.Morbi et nils a sapien acelierisque.Morbi et nils a sapien acelierisque.</p>
+          <p>Ensino Enfermeiros a prestarem ciudados maternos infantis com excelência e segurança</p>
           <button onClick={(() => history.push({pathname: './'}))}>Conheça nossos cursos</button>
         </div>
     
@@ -66,8 +75,9 @@ const Main = () => {
       <section className="dif">
         <h1>Diferenciais</h1>
         <h2>Cursos e Consultorias</h2>
+        
         <ul className="diful">
-          <li className="listDif">
+          <li className="listDif list-1">
             <h3>Marca - DNA USP</h3>
             <p>Iniciativa da Universidade de São Paulo (USP) 
               criada para identificar empresas constituídas por alunos, ex-alunos e pesquisadores
@@ -93,7 +103,7 @@ const Main = () => {
             </p>
             <button className="btn-3" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
           </li>
-          <li className="listDif">
+          <li className="listDif list-4">
             <h3>Experiência Internacional
                 na Espanha</h3>
             <p>Experiência internacional no Hospital
@@ -104,7 +114,7 @@ const Main = () => {
                 Mamária.
             </p>
             <button className="btn-4" onClick={(() => history.push({pathname: '/portfolio'}))}>Saiba Mais</button>
-          </li>
+          </li>          
         </ul>
       </section>
       </div>
@@ -122,7 +132,7 @@ const Main = () => {
           </form>
         </div>
       </div>
-          <section className="curso">
+          <section className="curso" id="cursos">
             <h1>Cursos</h1>
             <ul>
               <li>
@@ -132,7 +142,7 @@ const Main = () => {
                 <p className="parag">O curso tem como objetivo despertar no profissional de saúde a atuação 
                 empreendedora/inovadora no ramo da amamentação, contribuindo para a promoção, proteção e apoio
                 ao aleitamento materno, bem como para a realização e satisfação profissional pelo trabalho empreendedor.</p>
-                <button onClick={(() => history.push({pathname: '/contato'}))}>Veja mais</button>
+                <button onClick={curso1}>Veja mais</button>
               </li>
               <li>
                 <div className="cinza"></div>
@@ -142,11 +152,28 @@ const Main = () => {
                 empreendedora/inovadora no ramo da promoção de cursos para casais grávidos, contribuindo para a segurança
                   e a qualidade da assistência materno-infantil, bem como para a realização e satisfação profissional pelo
                   trabalho empreendedor.</p>
-                <button onClick={(() => history.push({pathname: '/contato'}))}>Veja mais</button>
+                <button onClick={curso2}>Veja mais</button>
               </li>
             </ul>
           </section>
-        
+      <section className="podcast">
+        <h1>Podcast</h1>
+        <div className="img-podcast">
+          <button><img src="Img/Spotify-Logo.png" alt="" /></button>
+          <button><img src="Img/454-4545367_anchor-png-transparent.png" alt="" /></button>
+        </div>
+        <p>Clique no ícone da plataforma que deseja ouvir</p>
+      </section>
+      <section className="parceiros">
+        <h1>Parceiros</h1>
+      <div className="img-parceiros">
+        <img src="Img/logo-quad.png" alt="" />
+        <img src="Img/logo_ves.png" alt="" />
+        <img src="Img/Outlook-jy0dybt4.png" alt="" />
+        <img src="Img/20200929182002.png" alt="" />
+      </div>
+      </section>
+      <Footer />
     </section>
   ) 
 }
