@@ -28,7 +28,11 @@ const Main = () => {
       <Header />
         <div className="parteSuperior">
           <h1>Saúde da mulher e Saúde da Criança</h1>
+<<<<<<< HEAD
           <p>Ensino Enfermeiros a prestarem ciudados maternos infantis com excelência e segurança</p>
+=======
+          <p>Ensino enfermeiros a prestarem cuidados maternos infantis com excelência e segurança.</p>
+>>>>>>> 25fa285e6a1d6d43477cadad71dae948a123c66c
           <button onClick={(() => history.push({pathname: './'}))}>Conheça nossos cursos</button>
         </div>
     
